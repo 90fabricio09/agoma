@@ -34,7 +34,7 @@ const Menu = () => {
             Nosso Cardápio
           </h2>
           <p className="menu__subtitle">
-            Cada hambúrguer é cuidadosamente preparado com ingredientes selecionados
+            Cada sanduíche é cuidadosamente preparado com ingredientes selecionados
           </p>
         </div>
 

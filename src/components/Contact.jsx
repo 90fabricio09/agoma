@@ -10,7 +10,7 @@ const Contact = () => {
               Visite-nos
             </h2>
             <p className="contact__subtitle">
-              Venha experimentar o melhor hambúrguer da região
+              Venha experimentar os melhores sanduíches da região
             </p>
           </div>
 

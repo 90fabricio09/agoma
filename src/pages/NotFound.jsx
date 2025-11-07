@@ -38,7 +38,7 @@ const NotFound = () => {
           </h2>
           
           <p className="notfound__description">
-            Parece que você se perdeu no caminho até o melhor hambúrguer da cidade. 
+            Parece que você se perdeu no caminho até a melhor lanchonete da cidade. 
             A página que você procura não existe ou foi movida.
           </p>
 

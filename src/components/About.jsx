@@ -8,7 +8,7 @@ const features = [
       </svg>
     ),
     title: "Feito na Hora",
-    description: "Todos os hambúrgueres são preparados frescos no momento do pedido"
+    description: "Todos os sanduíches são preparados frescos no momento do pedido"
   },
   {
     icon: (
@@ -41,7 +41,7 @@ const About = () => {
               Sobre a Agoma
             </h2>
             <p className="about__subtitle">
-              Nascemos da paixão por hambúrgueres autênticos. Nossa missão é criar 
+              Nascemos da paixão por comida autêntica. Nossa missão é criar 
               experiências gastronômicas memoráveis usando apenas os melhores ingredientes 
               e técnicas artesanais.
             </p>

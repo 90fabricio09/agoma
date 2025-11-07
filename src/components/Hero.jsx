@@ -18,7 +18,7 @@ const Hero = () => {
             <img src={logo} alt="Agoma" className="hero__logo" />
           </div>
           <p className="hero__subtitle">
-            Hambúrgueres artesanais feitos com paixão e ingredientes premium. 
+            Lanchonete artesanal com sanduíches feitos com paixão e ingredientes premium. 
             Cada mordida é uma experiência única.
           </p>
           <div className="hero__buttons">
