@@ -20,8 +20,8 @@
   inset: 0;
   background: linear-gradient(
     to right,
-    hsla(122, 13%, 21%, 0.95),
-    hsla(122, 13%, 21%, 0.80),
+    hsla(0, 0%, 0%, 0.95),
+    hsla(120, 7%, 14%, 0.8),
     hsla(122, 13%, 21%, 0.60)
   );
 }
@@ -125,11 +125,31 @@
   .hero__logo {
     max-width: 180px;
   }
+  .hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to right,
+      hsla(122, 13%, 21%, 0.95),
+      hsla(122, 13%, 21%, 0.80),
+      hsla(122, 13%, 21%, 0.60)
+    );
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
   .hero__logo {
     max-width: 280px;
+  }
+  .hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to right,
+      hsla(0, 0%, 0%, 0.95),
+      hsla(0, 0%, 0%, 0.8),
+      hsla(0, 0%, 0%, 0.6)
+    );
   }
 }
 
