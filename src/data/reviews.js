@@ -18,11 +18,11 @@ export const reviews = [
     avatar: ""
  },  
  {
-    name: "Gabriel Moura",
+    name: "joão victor alcântara",
     rating: 5,
-    text: "Comida espetacular, atendimento de primeira e super atenciosos. Melhor lugar favorito desde a abertura",
+    text: "Hamburgueria excelente!!!",
     date: "2025-10-01",
-    avatar: "https://media.discordapp.net/attachments/973694626420641802/1435018618722058392/gabriel-moura.png?ex=690e653c&is=690d13bc&hm=612bbf20866d1eab2c26ff1536ac83f9a4f3025dd99c8e59c262e2440626b95a&=&format=webp&quality=lossless&width=90&height=90"
+    avatar: ""
  }, 
 ];
 
@@ -31,5 +31,6 @@ export const averageRating = 0; // Exemplo: 4.8
 
 // Total de avaliações (opcional)
 export const totalRatings = 0; // Exemplo: 127
+
 
 
