@@ -59,9 +59,8 @@ const Contact = () => {
                 Horário
               </h3>
               <p className="contact__card-text">
-                Seg-Ter: 18h-22h<br />
-                Qua-Sex: 12h-00h<br />
-                Sáb-Dom: 18h-00h
+                Seg-Ter: 18h-00h<br />
+                Qua-Dom: 18h-01h
               </p>
             </div>
           </div>
