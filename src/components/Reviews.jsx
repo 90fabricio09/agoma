@@ -66,6 +66,26 @@ const Reviews = () => {
     return `há ${years} ${years === 1 ? 'ano' : 'anos'}`;
   };
 
+  // Função para obter a cor de fundo do avatar baseada no nome
+  const getAvatarBackgroundColor = (name) => {
+    if (!name) return null;
+    
+    const nameLower = name.toLowerCase();
+    
+    // Fabricio - azul
+    if (nameLower.includes('fabricio')) {
+      return '#3b82f6'; // azul
+    }
+    
+    // João - verde
+    if (nameLower.includes('joão') || nameLower.includes('joao')) {
+      return '#22c55e'; // verde
+    }
+    
+    // Ester - padrão (retorna null para usar o padrão)
+    return null;
+  };
+
   const hasReviews = staticReviews && staticReviews.length > 0;
   const showRating = averageRating > 0;
 
@@ -148,7 +168,12 @@ const Reviews = () => {
                             }}
                           />
                         ) : (
-                          <div className="reviews__author-avatar reviews__author-avatar--default">
+                          <div 
+                            className="reviews__author-avatar reviews__author-avatar--default"
+                            style={{
+                              backgroundColor: getAvatarBackgroundColor(review.name) || undefined
+                            }}
+                          >
                             {(review.name || 'C')[0].toUpperCase()}
                           </div>
                         )}
