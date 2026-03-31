@@ -60,7 +60,8 @@ const Contact = () => {
               </h3>
               <p className="contact__card-text">
                 Seg-Ter: 18h-00h<br />
-                Qua-Dom: 18h-01h
+                Qua-Sex: 12h-01h<br />
+                Sab-Dom: 18h-01h
               </p>
             </div>
           </div>
