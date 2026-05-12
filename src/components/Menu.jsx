@@ -8,19 +8,19 @@ const menuItems = [
   {
     name: "Cheddar D`agoma",
     description: "Arrestável cheddar D`agoma com Pão, Blend D'Agoma, cheddar e cebola crispy ou farofa de bacon.",
-    price: "R$ 30,00",
+    price: "R$ 32,00",
     image: classicBurger,
   },
   {
     name: "Ciabatta Caprese",
     description: "Delicioso Pão, molho de tomate artesanal, queijo gratinado, rúcula, tomate e mayo manjericão.",
-    price: "R$ 24,00",
+    price: "R$ 26,00",
     image: baconBurger,
   },
   {
     name: "Wrap Gallus",
     description: "Pão folha, alface, tomate, mayo manjericão, requeijão cremoso e o Nosso Frango.",
-    price: "R$ 26,00",
+    price: "R$ 28,00",
     image: veggieBurger,
   },
 ];
